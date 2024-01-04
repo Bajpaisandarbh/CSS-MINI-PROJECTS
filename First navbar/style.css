@@ -84,12 +84,12 @@ body {
 .indicator::before {
     content: '';
     position: absolute;
-    top: 5px;
+    top: 5%;
     left: -27.5;
     width: 30;
     height: 30;
     border-radius: 50%;
-    box-shadow: -15px 18px #fff;
+    box-shadow: -15px 18px #d83030;
 }
 .navigation ul li:nth-child(1).active ~ .indicator {
     transform: translateX(calc(70px *0));
