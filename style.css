@@ -14,12 +14,12 @@ body {
     position: relative;
     width: 420px;
     height: 70px;
-    background: white;
+    background: cyan;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .navigation ul {
     width: 350px;
@@ -41,14 +41,14 @@ body {
     text-align: center;
     line-height: 65px;
     border-radius: 65px;
-    color: #222327;
+    color: #091852;
     font-size: 1.5em;
     transition: 0.5s;
     transition-delay: 0s; 
 }
 .navigation ul li a .icon {
     background: var(--clr);
-    color: #fff;
+    color: black;
     transform: translateY(-27px);
     transition-delay: 0.25s;
 
@@ -73,13 +73,13 @@ body {
 }
 .indicator {
     position: absolute;
-    top: -35px;
-    width: 70px;
-    height: 70px;
+    top: -30px;
+    width: 60px;
+    height: 60px;
     background: #fff;
     border-radius: 50%;
     z-index: 1;
-    transition: 0.5s; 
+    transition: 0.5s;
 }
 .indicator::before {
     content: '';
